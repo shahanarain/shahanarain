@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Mage License for shahanarain: rank Apprentice Mage, 17 contributions in the past year, 9 public repos, 0 stars, 1 followers">
+<defs>
+  <linearGradient id="m-gold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff3c9"/><stop offset=".5" stop-color="#e9b54c"/><stop offset="1" stop-color="#9c6a17"/>
+  </linearGradient>
+  <radialGradient id="m-bg" cx=".15" cy=".5" r="1">
+    <stop offset="0" stop-color="#2a070d"/><stop offset=".5" stop-color="#16080b"/><stop offset="1" stop-color="#0b0607"/>
+  </radialGradient>
+  <filter id="m-glow" x="-20%" y="-50%" width="140%" height="200%">
+    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#d11a33" flood-opacity=".7"/>
+  </filter>
+  <linearGradient id="mana" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d11a33"/><stop offset="1" stop-color="#ff3b4e"/></linearGradient>
+  <clipPath id="barclip"><rect x="392" y="196" width="580" height="10" rx="5"/></clipPath>
+</defs>
+<style>
+  .crest { transform-box: fill-box; transform-origin: center; animation: pulse 3.2s ease-in-out infinite; }
+  .seal { transform-box: fill-box; transform-origin: center; animation: spin 50s linear infinite; }
+  .mana { animation: fill 2.2s cubic-bezier(.22,1,.36,1) both; transform-box: fill-box; transform-origin: left center; }
+  @keyframes pulse { 0%,100% { filter: drop-shadow(0 0 3px #ff3b4e); } 50% { filter: drop-shadow(0 0 12px #ff3b4e); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  @media (prefers-reduced-motion: reduce) { .crest, .seal, .mana { animation: none; } }
+</style>
+<rect x="1" y="1" width="998" height="318" rx="18" fill="url(#m-bg)" stroke="#e9b54c" stroke-opacity=".3" stroke-width="2"/>
+
+<!-- license card -->
+<g transform="translate(30 30)">
+  <rect width="330" height="260" rx="14" fill="#100608" stroke="url(#m-gold)" stroke-width="1.5"/>
+  <rect x="8" y="8" width="314" height="244" rx="10" fill="none" stroke="#e9b54c" stroke-opacity=".25" stroke-dasharray="2 4"/>
+  <text x="165" y="36" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="4" fill="#ff3b4e">✦ MAGE LICENSE ✦</text>
+  <g transform="translate(165 104)">
+    <g><circle class="seal" r="46" fill="none" stroke="#e9b54c" stroke-opacity=".55" stroke-dasharray="4 5"/></g>
+    <circle r="38" fill="#1a070b" stroke="#e9b54c" stroke-opacity=".35"/>
+    <g transform="scale(.62)"><g class="crest"><g fill="#120205" stroke="#ff3b4e" stroke-width="2"><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(0)"/><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(72)"/><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(144)"/><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(216)"/><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(288)"/><circle r="5" fill="#e9b54c" stroke="none"/></g></g></g>
+  </g>
+  <text x="165" y="182" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="url(#m-gold)" filter="url(#m-glow)">shahanarain</text>
+  <text x="165" y="206" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" letter-spacing="2" fill="#efe6d8">RANK · APPRENTICE MAGE</text>
+  <text x="165" y="236" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10" fill="#a8927a">@shahanarain · Mage since 2024</text>
+</g>
+
+<!-- stats -->
+<text x="392" y="40" font-family="Verdana, 'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#ff3b4e">✦ POWER LEVEL</text>
+<g transform="translate(392 56)">
+    <rect width="136" height="96" rx="12" fill="#120709" stroke="#e9b54c" stroke-opacity=".22"/>
+    <text x="16" y="28" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" letter-spacing="1.6" fill="#a8927a">CONTRIBUTIONS</text>
+    <text x="16" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="url(#m-gold)">17</text>
+    <text x="16" y="84" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10" fill="#a8927a" fill-opacity=".75">past year</text>
+  </g><g transform="translate(540 56)">
+    <rect width="136" height="96" rx="12" fill="#120709" stroke="#e9b54c" stroke-opacity=".22"/>
+    <text x="16" y="28" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" letter-spacing="1.6" fill="#a8927a">PUBLIC REPOS</text>
+    <text x="16" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="url(#m-gold)">9</text>
+    <text x="16" y="84" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10" fill="#a8927a" fill-opacity=".75">grimoires</text>
+  </g><g transform="translate(688 56)">
+    <rect width="136" height="96" rx="12" fill="#120709" stroke="#e9b54c" stroke-opacity=".22"/>
+    <text x="16" y="28" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" letter-spacing="1.6" fill="#a8927a">STARS EARNED</text>
+    <text x="16" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="url(#m-gold)">0</text>
+    <text x="16" y="84" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10" fill="#a8927a" fill-opacity=".75">on public repos</text>
+  </g><g transform="translate(836 56)">
+    <rect width="136" height="96" rx="12" fill="#120709" stroke="#e9b54c" stroke-opacity=".22"/>
+    <text x="16" y="28" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" letter-spacing="1.6" fill="#a8927a">FOLLOWERS</text>
+    <text x="16" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="url(#m-gold)">1</text>
+    <text x="16" y="84" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10" fill="#a8927a" fill-opacity=".75">allies</text>
+  </g>
+
+<!-- languages -->
+<text x="392" y="182" font-family="Verdana, 'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#ff3b4e">✦ SPELL AFFINITY</text>
+<g clip-path="url(#barclip)"><g class="mana"><rect x="392.0" y="196" width="371.3" height="10" fill="#f1e05a"/><rect x="763.3" y="196" width="115.6" height="10" fill="#663399"/><rect x="878.9" y="196" width="47.2" height="10" fill="#e34c26"/><rect x="926.1" y="196" width="42.5" height="10" fill="#3572A5"/><rect x="968.6" y="196" width="3.2" height="10" fill="#3178c6"/></g></g>
+<g transform="translate(392.0 230)"><circle cx="5" cy="-4" r="5" fill="#f1e05a"/><text x="16" y="0" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" fill="#efe6d8">JavaScript <tspan fill="#a8927a">64.0%</tspan></text></g><g transform="translate(546.4 230)"><circle cx="5" cy="-4" r="5" fill="#663399"/><text x="16" y="0" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" fill="#efe6d8">CSS <tspan fill="#a8927a">19.9%</tspan></text></g><g transform="translate(649.0 230)"><circle cx="5" cy="-4" r="5" fill="#e34c26"/><text x="16" y="0" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" fill="#efe6d8">HTML <tspan fill="#a8927a">8.1%</tspan></text></g><g transform="translate(751.6 230)"><circle cx="5" cy="-4" r="5" fill="#3572A5"/><text x="16" y="0" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" fill="#efe6d8">Python <tspan fill="#a8927a">7.3%</tspan></text></g><g transform="translate(869.0 230)"><circle cx="5" cy="-4" r="5" fill="#3178c6"/><text x="16" y="0" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" fill="#efe6d8">TypeScript <tspan fill="#a8927a">0.5%</tspan></text></g>
+
+<!-- mana to next rank -->
+<text x="392" y="286" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" fill="#a8927a">Mana to Adept Spellcaster: 17 / 50</text>
+<rect x="642" y="278" width="330" height="6" rx="3" fill="#2a1418"/>
+<rect class="mana" x="642" y="278" width="112.2" height="6" rx="3" fill="url(#mana)"/>
+</svg>

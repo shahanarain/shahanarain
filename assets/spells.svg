@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="342" viewBox="0 0 1000 342" role="img" aria-label="Tech stack: React, Next.js, TypeScript, JavaScript, Tailwind, HTML5, CSS3, Node.js, Express, Python, PHP, PostgreSQL, MongoDB, Firebase, Git, GitHub, Figma, Docker, AWS, Vercel">
+<defs>
+  <linearGradient id="s-gold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff3c9"/><stop offset=".5" stop-color="#e9b54c"/><stop offset="1" stop-color="#9c6a17"/>
+  </linearGradient>
+  <radialGradient id="s-bg" cx=".15" cy=".5" r="1">
+    <stop offset="0" stop-color="#2a070d"/><stop offset=".5" stop-color="#16080b"/><stop offset="1" stop-color="#0b0607"/>
+  </radialGradient>
+  <filter id="s-glow" x="-20%" y="-50%" width="140%" height="200%">
+    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#d11a33" flood-opacity=".7"/>
+  </filter></defs>
+<style>
+  .badge { stroke-opacity: .25; animation: rune 7s ease-in-out infinite; }
+  @keyframes rune { 0%,100% { stroke-opacity: .22; } 8% { stroke-opacity: .95; stroke: #ff3b4e; } 18% { stroke-opacity: .22; } }
+  @media (prefers-reduced-motion: reduce) { .badge { animation: none; } }
+</style>
+<rect x="1" y="1" width="998" height="340" rx="18" fill="url(#s-bg)" stroke="#e9b54c" stroke-opacity=".3" stroke-width="2"/>
+<text x="26" y="44" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#ff3b4e">✦ FRONTEND MAGIC</text><g transform="translate(26 58)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:0.00s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#61DAFB" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#61DAFB" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#61DAFB">Re</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">React</text>
+      </g><g transform="translate(164 58)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:0.35s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#ffffff" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#ffffff" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">Nx</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Next.js</text>
+      </g><g transform="translate(302 58)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:0.70s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#3178C6" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#3178C6" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#3178C6">Ts</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">TypeScript</text>
+      </g><g transform="translate(440 58)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:1.05s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#F7DF1E" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#F7DF1E" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#F7DF1E">Js</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">JavaScript</text>
+      </g><g transform="translate(578 58)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:1.40s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#38BDF8" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#38BDF8" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#38BDF8">Tw</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Tailwind</text>
+      </g><g transform="translate(716 58)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:1.75s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#E34F26" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#E34F26" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#E34F26">Ht</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">HTML5</text>
+      </g><g transform="translate(854 58)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:2.10s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#2965F1" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#2965F1" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#2965F1">Cs</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">CSS3</text>
+      </g><text x="26" y="146" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#ff3b4e">✦ BACKEND MAGIC</text><g transform="translate(26 160)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:2.45s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#5FA04E" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#5FA04E" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#5FA04E">No</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Node.js</text>
+      </g><g transform="translate(164 160)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:2.80s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#d4d4d4" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#d4d4d4" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#d4d4d4">Ex</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Express</text>
+      </g><g transform="translate(302 160)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:3.15s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#FFD43B" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#FFD43B" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#FFD43B">Py</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Python</text>
+      </g><g transform="translate(440 160)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:3.50s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#8892BF" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#8892BF" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#8892BF">Ph</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">PHP</text>
+      </g><g transform="translate(578 160)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:3.85s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#4169E1" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#4169E1" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#4169E1">Pg</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">PostgreSQL</text>
+      </g><g transform="translate(716 160)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:4.20s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#47A248" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#47A248" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#47A248">Mg</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">MongoDB</text>
+      </g><g transform="translate(854 160)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:4.55s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#FFCA28" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#FFCA28" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#FFCA28">Fb</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Firebase</text>
+      </g><text x="26" y="248" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#ff3b4e">✦ ARCANE TOOLS</text><g transform="translate(26 262)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:4.90s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#F05032" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#F05032" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#F05032">Gi</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Git</text>
+      </g><g transform="translate(164 262)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:5.25s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#ffffff" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#ffffff" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">Gh</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">GitHub</text>
+      </g><g transform="translate(302 262)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:5.60s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#F24E1E" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#F24E1E" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#F24E1E">Fg</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Figma</text>
+      </g><g transform="translate(440 262)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:5.95s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#2496ED" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#2496ED" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#2496ED">Dk</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Docker</text>
+      </g><g transform="translate(578 262)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:6.30s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#FF9900" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#FF9900" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#FF9900">Aw</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">AWS</text>
+      </g><g transform="translate(716 262)">
+        <rect class="badge" width="128" height="46" rx="10" fill="#120709" stroke="#e9b54c" style="animation-delay:6.65s"/>
+        <circle cx="23" cy="23" r="14" fill="none" stroke="#ffffff" stroke-opacity=".9" stroke-width="1.6"/>
+        <circle cx="23" cy="23" r="10" fill="#ffffff" fill-opacity=".14"/>
+        <text x="23" y="27" text-anchor="middle" font-family="Verdana, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">Vc</text>
+        <text x="44" y="27.5" font-family="Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#efe6d8">Vercel</text>
+      </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="130" viewBox="0 0 1000 130" role="img" aria-label="The grimoire grows with every commit">
+<defs>
+  <linearGradient id="f-gold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff3c9"/><stop offset=".5" stop-color="#e9b54c"/><stop offset="1" stop-color="#9c6a17"/>
+  </linearGradient>
+  <radialGradient id="f-bg" cx=".15" cy=".5" r="1">
+    <stop offset="0" stop-color="#2a070d"/><stop offset=".5" stop-color="#16080b"/><stop offset="1" stop-color="#0b0607"/>
+  </radialGradient>
+  <filter id="f-glow" x="-20%" y="-50%" width="140%" height="200%">
+    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#d11a33" flood-opacity=".7"/>
+  </filter>
+  <radialGradient id="fglow"><stop offset="0" stop-color="#d11a33" stop-opacity=".7"/><stop offset="1" stop-color="#d11a33" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+  .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3.2s ease-in-out infinite; }
+  .ring { transform-box: fill-box; transform-origin: center; animation: spin 40s linear infinite; }
+  @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.12); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .pulse, .ring { animation: none; } }
+</style>
+<g stroke="#e9b54c" stroke-opacity=".45"><line x1="60" y1="50" x2="440" y2="50"/><line x1="560" y1="50" x2="940" y2="50"/></g>
+<g transform="translate(500 50)">
+  <g><circle class="pulse" r="56" fill="url(#fglow)"/></g>
+  <g><circle class="ring" r="40" fill="none" stroke="#e9b54c" stroke-opacity=".6" stroke-dasharray="3 6"/></g>
+  <g transform="scale(.62)"><g fill="#120205" stroke="#ff3b4e" stroke-width="2"><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(0)"/><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(72)"/><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(144)"/><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(216)"/><path d="M0 -4 C -4 -14 -26 -18 -26 -36 C -26 -48 -12 -52 0 -40 C 12 -52 26 -48 26 -36 C 26 -18 4 -14 0 -4 Z" transform="rotate(288)"/><circle r="5" fill="#e9b54c" stroke="none"/></g></g>
+</g>
+<text x="500" y="118" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#a8927a" letter-spacing="1">✦ The grimoire grows with every commit ✦</text>
+</svg>
